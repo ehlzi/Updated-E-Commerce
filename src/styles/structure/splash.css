@@ -1,0 +1,112 @@
+.header-splash {
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-splash video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-splash__logo {
+    width: 25%;
+}
+
+.header-splash__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+}
+
+.header-splash__order-button {
+    padding: 2%;
+    transition: 0.2s;
+    border-radius: 50px;
+    width: 50%;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: red;
+}
+
+.header-splash__order-button:hover {
+    opacity: 40%;
+    border-radius: 5px;
+}
+
+/* Small tablets (portrait) */
+@media (min-width: 600px) {
+
+    .header-splash {
+        height: 40vh;
+    }
+
+    .header-splash__logo {
+        width: 15%;
+    }
+
+    .header-splash__order-button {
+        padding: 1%;
+        transition: 0.2s;
+        border-radius: 50px;
+        width: 20%;
+    }
+
+}
+
+/* Large tablets (landscape) */
+@media (min-width: 900px) {
+
+    .header-splash {
+        height: 60vh;
+    }
+
+    .header-splash__logo {
+        width: 15%;
+    }
+
+    .header-splash__order-button {
+        padding: 1%;
+        transition: 0.2s;
+        border-radius: 50px;
+        width: 20%;
+    }
+
+
+
+}
+
+/* Desktops */
+@media (min-width: 1280px) {
+
+    .header-splash {
+        height: 60vh;
+    }
+
+    .header-splash__logo {
+        width: 10%;
+    }
+
+    .header-splash__order-button {
+        padding: 1%;
+        transition: 0.2s;
+        border-radius: 50px;
+        width: 15%;
+    }
+
+}

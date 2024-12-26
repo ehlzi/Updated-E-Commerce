@@ -94,6 +94,7 @@
         border: none;
         margin-right: 1%;
         width: 100%;
+        gap: 0.5rem;
     }
 
     .nav-bar__logo-container {
