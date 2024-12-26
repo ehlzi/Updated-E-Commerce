@@ -40,6 +40,7 @@
 
 .nav-bar__button {
     display: flex;
+    align-items: center;
     width: 100vw;
     height: 8vh;
     box-sizing: border-box;
