@@ -851,11 +851,9 @@ module.exports = {
       150: '1.5',
     },
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      '2xl': '1536px',
+      sm: '600px',
+      md: '900px',
+      lg: '1280px',
     },
     scrollMargin: ({ theme }) => ({
       ...theme('spacing'),
