@@ -1,0 +1,62 @@
+.rewards__elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rewards__image {
+    width: 5%;
+}
+
+/* Rewards Section */
+.rewards {
+    padding: 1% 0 1% 0;
+}
+
+.rewards__image {
+    transition: transform 0.3s ease;
+}
+
+.rewards__image:hover {
+    transform: scale(1.2);
+}
+
+/* Small tablets (portrait) */
+@media (min-width: 600px) {
+
+
+}
+
+/* Large tablets (landscape) */
+@media (min-width: 900px) {
+
+
+}
+
+/* Desktops */
+@media (min-width: 1280px) {
+
+    .rewards__elements {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .rewards__image {
+        width: 5%;
+    }
+
+    /* Rewards Section */
+    .rewards {
+        padding: 1% 0 1% 0;
+    }
+
+    .rewards__image {
+        transition: transform 0.3s ease;
+    }
+
+    .rewards__image:hover {
+        transform: scale(1.2);
+    }
+
+}

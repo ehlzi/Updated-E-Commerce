@@ -1,0 +1,76 @@
+/* Learn More Section */
+.learn-more{
+    padding: 1%;
+}
+
+.bio {
+    padding: 1%;
+}
+
+.learn-more__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.learn-more__image {
+    padding: 2%;
+    width: 50%;
+}
+
+.learn-more__text-container {
+    width: 100%;
+    height: auto;
+}
+
+.learn-more__title {
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: red;
+    width: 100%;
+}
+
+.learn-more__description {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    width: 100%;
+}
+
+/* Small tablets (portrait) */
+@media (min-width: 600px) {
+
+
+}
+
+/* Large tablets (landscape) */
+@media (min-width: 900px) {
+
+
+}
+
+/* Desktops */
+@media (min-width: 1280px) {
+
+    .learn-more__container {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .learn-more__title {
+        justify-content: start;
+    }
+
+    .learn-more__description {
+        text-align: left;
+    }
+
+}

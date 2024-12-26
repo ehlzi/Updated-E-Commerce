@@ -3,9 +3,11 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-    border-bottom: lightgray;
+    //border-bottom: lightgray;
     border-width: 2px;
     border-style: solid;
+    background-color: white;
+    z-index: 2;
 }
 
 .nav-bar__list {
@@ -76,7 +78,6 @@
         align-items: center;
         width: 100vw;
         height: 4rem;
-        //height: 5vh;
         box-sizing: border-box;
         padding: 0.2rem;
         transition: all 0.5s;
