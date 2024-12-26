@@ -41,7 +41,7 @@
 .nav-bar__button {
     display: flex;
     width: 100vw;
-    //height: 10vh;
+    height: 8vh;
     box-sizing: border-box;
     padding: 0.2rem;
     transition: all 0.5s;
