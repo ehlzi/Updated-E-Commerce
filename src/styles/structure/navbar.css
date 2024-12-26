@@ -77,7 +77,45 @@
 @media (min-width: 900px) {
 
     .nav-bar {
+        flex-direction: row;
     }
+
+    .nav-bar__list {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+        border: none;
+        margin-right: 1%;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .nav-bar__logo-container {
+
+    }
+
+    .nav-bar__logo {
+        max-width: 100%;
+    }
+
+    .nav-bar__button {
+        display: flex;
+        width: auto;
+        align-items: center;
+    }
+
+    .nav-bar__type {
+        width: auto;
+    }
+
+    .nav-bar__toggle-button {
+        display: none;
+    }
+
+    .nav-bar__elements-container {
+        width: 5%;
+    }
+
 
 }
 
