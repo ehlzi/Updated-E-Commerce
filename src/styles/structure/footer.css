@@ -30,6 +30,9 @@
 /* Large tablets (landscape) */
 @media (min-width: 900px) {
 
+    .footer__nav-image {
+        width: 3%;
+    }
 
 }
 
