@@ -71,6 +71,17 @@
         max-width: 10%;
     }
 
+    .nav-bar__button {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 4rem;
+        //height: 5vh;
+        box-sizing: border-box;
+        padding: 0.2rem;
+        transition: all 0.5s;
+    }
+
 }
 
 /* Large tablets (landscape) */
