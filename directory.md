@@ -1,0 +1,48 @@
+- .idea
+- node_modules
+- src
+    - fonts
+        - Merriweather
+            - Merriweather-Black.ttf
+            - Merriweather-BlackItalic.ttf
+            - Merriweather-Bold.ttf
+            - Merriweather-BoldItalic.ttf
+            - Merriweather-Italic.ttf
+            - Merriweather-Light.ttf
+            - Merriweather-LightItalic.ttf
+            - Merriweather-Regular.ttf
+        - Montserrat
+            - static
+                - Montserrat-Black.ttf
+                - Montserrat-BlackItalic.ttf
+                - Montserrat-Bold.ttf
+                - Montserrat-BoldItalic.ttf
+                - Montserrat-ExtraBold.ttf
+                - Montserrat-ExtraBoldItalic.ttf
+                - Montserrat-ExtraLight.ttf
+                - Montserrat-ExtraLightItalic.ttf
+                - Montserrat-Italic.ttf
+                - Montserrat-Light.ttf
+                - Montserrat-LightItalic.ttf
+                - Montserrat-Medium.ttf
+                - Montserrat-MediumItalic.ttf
+                - Montserrat-Regular.ttf
+                - Montserrat-SemiBold.ttf
+                - Montserrat-SemiBoldItalic.ttf
+                - Montserrat-Thin.ttf
+                - Montserrat-ThinItalic.ttf
+            - Montserrat-Italic-VariableFont_wght.ttf
+            - Montserrat-VariableFont_wght.ttf
+    - images
+        - logo.png
+    - styles
+        - body.css
+        - fonts.css
+        - input.css
+        - navbar.css
+        - output.css
+- directory.md
+- index.html
+- package.json
+- package-lock.json
+- tailwind.config.js

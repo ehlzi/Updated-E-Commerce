@@ -1,0 +1,127 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    //background-color: lightcoral;
+}
+
+.nav-bar__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
+    opacity: 0;
+    border-bottom: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-bar__list.show {
+    max-height: 100vh;
+    opacity: 1;
+}
+
+.nav-bar__list.hide {
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease;
+}
+
+.nav-bar__logo {
+    display: flex;
+    max-width: 15%;
+}
+
+.nav-bar__logo-container {
+
+}
+
+.nav-bar__button {
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    transition: all 0.5s;
+}
+
+.nav-bar__type {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar__elements-container {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+/* Small tablets (portrait) */
+@media (min-width: 600px) {
+
+    .nav-bar {
+        //background-color: lightblue;
+    }
+
+    .nav-bar__logo {
+        display: flex;
+        max-width: 10%;
+    }
+
+}
+
+/* Large tablets (landscape) */
+@media (min-width: 900px) {
+    .nav-bar {
+        //background-color: lightseagreen;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+    .nav-bar {
+        flex-direction: row;
+        //background-color: red;
+    }
+
+    .nav-bar__list {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+        border: none;
+        margin-right: 1%;
+        width: 100%;
+    }
+
+    .nav-bar__logo {
+        max-width: 100%;
+    }
+
+    .nav-bar__button {
+        display: flex;
+        width: auto;
+        box-sizing: border-box;
+        padding: 0.2rem;
+        transition: none;
+    }
+
+    .nav-bar__type {
+        width: auto;
+        text-align: center;
+    }
+
+    .nav-bar__toggle-button {
+        display: none;
+    }
+
+    .nav-bar__elements-container {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        width: 5%;
+    }
+}
